@@ -20,12 +20,7 @@ class MainActivity : AppCompatActivity() {
         val BattSizeText = findViewById<TextView>(R.id.tailleBatt)
 
         nextButton.setOnClickListener {
-            if (BattSize == null) {
-                BattSize = BattSizeText.text.toString()
-            }
-            else {
-                BattSizeText.text = BattSize
-            }
+            BattSize = BattSizeText.text.toString()
         }
     }
 }
