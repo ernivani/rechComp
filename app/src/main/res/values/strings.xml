@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">rechCom</string>
     <string name="TailleBatt">Taille de la batterie</string>
+    <string name="TextSuivantButt">Suivant</string>
 </resources>
