@@ -18,9 +18,12 @@ class MainActivity : AppCompatActivity() {
 
         val nextButton = findViewById<Button>(R.id.suivantButt)
         val BattSizeText = findViewById<TextView>(R.id.tailleBatt)
+        var textViewTest = findViewById<TextView>(R.id.textViewTest)
 
         nextButton.setOnClickListener {
             BattSize = BattSizeText.text.toString()
+            textViewTest.text = BattSize+ 6
+            textViewTest.visibility = TextView.VISIBLE
         }
     }
 }
